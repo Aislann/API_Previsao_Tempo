@@ -19,3 +19,10 @@ function inserirDados(dados) {
     document.querySelector(".Umidade").innerHTML ="Umidade: " + Math.floor(dados.main.humidity)+"%"
 
 }
+
+document.addEventListener("keypress", function(e) {
+    if(e.key === "Enter") {
+        var btn = document.querySelector(".btn");
+        btn.click();
+    }
+})
