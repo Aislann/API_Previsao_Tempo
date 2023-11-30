@@ -22,7 +22,7 @@ function inserirDados(dados) {
 
 document.addEventListener("keypress", function(e) {
     if(e.key === "Enter") {
-        var btn = document.querySelector(".btn");
+        const btn = document.querySelector(".btn");
         btn.click();
     }
 })
