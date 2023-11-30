@@ -37,13 +37,33 @@ button{
     font-weight: 500;
 }
 
+.box-medio{
+    margin-top: 10px;
+}
 .box-menor{
     display: flex;
     align-items: center;
+    margin-top: 10px;
 
 }
 
 input :hover {
     outline: none;
     border-radius: 50px;
+}
+
+h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.graus {
+    margin-top: 20px;
+}
+
+.texto-previsao{
+    text-transform: capitalize;
+
 }
